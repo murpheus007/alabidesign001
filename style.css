@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  --secondary-400-base: #1671D9;
+  --Secondary-500: #0D5EBA;
+  --grey-background: #F2F3F4;
+  --grey-surface: #EBEDEF;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.flex_column_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: min(100%, calc(100% - 48px));
+}
+
+.text-common {
+  font-family: 'Geist', sans-serif;
+  width: min(100%, calc(100% - 48px));
+}
+
+.subheading_1 {
+  color: var(--grey-text, #2A3034);
+  text-align: center;
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.label_small_regular,
+.label_large_semibold {
+  text-align: center;
+  width: min(100%, calc(100% - 48px));
+  line-height: 16px;
+}
+
+.label_small_regular {
+  color: var(--grey-stroke, #788894);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.label_large_semibold {
+  color: var(--grey-text, #2A3034);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card_text,
+.paragraph_text,
+.paragraph_2,
+.subheading_2 {
+  text-align: center;
+  width: min(100%, calc(100% - 48px));
+}
+
+.card_text,
+.paragraph_2 {
+  color: var(--grey-secondary-text, #606D76);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0 0 40px 0;
+}
+
+.paragraph_text {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.subheading_2 {
+  color: var(--grey-secondary-text, #606D76);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+/* @media (min-width: 840px) {
+  header {
+    max-width: unset;
+    width: 100vw;
+    padding: 12px 24px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: unset;
+}
+    .logo {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: coral;
+    color: var(--grey-text);
+}
+  nav ul li {
+    padding: 12px 24px;
+}
+
+} */
